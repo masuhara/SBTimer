@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TimerSettingViewController.h
 //  SBTimer
 //
 //  Created by Master on 2015/04/12.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
-@interface ViewController : UIViewController
-
+@interface TimerSettingViewController : UIViewController
 
 @end
-

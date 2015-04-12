@@ -9,11 +9,35 @@
 /* Begin PBXBuildFile section */
 		AFA81C0C1ADAA5540010F151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C0B1ADAA5540010F151 /* main.m */; };
 		AFA81C0F1ADAA5540010F151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C0E1ADAA5540010F151 /* AppDelegate.m */; };
-		AFA81C121ADAA5540010F151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C111ADAA5540010F151 /* ViewController.m */; };
 		AFA81C151ADAA5540010F151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C131ADAA5540010F151 /* Main.storyboard */; };
 		AFA81C171ADAA5540010F151 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C161ADAA5540010F151 /* Images.xcassets */; };
 		AFA81C1A1ADAA5540010F151 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C181ADAA5540010F151 /* LaunchScreen.xib */; };
 		AFA81C261ADAA5540010F151 /* SBTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C251ADAA5540010F151 /* SBTimerTests.m */; };
+		AFA81C381ADAA5BB0010F151 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C351ADAA5BB0010F151 /* Default-568h@2x.png */; };
+		AFA81C391ADAA5BB0010F151 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C361ADAA5BB0010F151 /* Default-667h@2x.png */; };
+		AFA81C3A1ADAA5BB0010F151 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C371ADAA5BB0010F151 /* Default-736h@3x.png */; };
+		AFA81C3D1ADAA93B0010F151 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C3C1ADAA93B0010F151 /* TimerViewController.m */; };
+		AFA81C401ADAA9560010F151 /* TimerSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C3F1ADAA9560010F151 /* TimerSettingViewController.m */; };
+		AFA81C4B1ADAB10E0010F151 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA81C4A1ADAB10E0010F151 /* iAd.framework */; };
+		AFA81C4D1ADAB5AB0010F151 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA81C4C1ADAB5AB0010F151 /* AudioToolbox.framework */; };
+		AFA81C4F1ADAC6810010F151 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA81C4E1ADAC6810010F151 /* MediaPlayer.framework */; };
+		AFA81C521ADAC6A60010F151 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C511ADAC6A60010F151 /* SettingViewController.m */; };
+		AFA81C571ADAC8180010F151 /* dog_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C541ADAC8180010F151 /* dog_normal@2x.png */; };
+		AFA81C581ADAC8180010F151 /* reset_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C551ADAC8180010F151 /* reset_button@2x.png */; };
+		AFA81C591ADAC8180010F151 /* start_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C561ADAC8180010F151 /* start_button@2x.png */; };
+		AFA81C5B1ADAC8890010F151 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C5A1ADAC8890010F151 /* tabbar@2x.png */; };
+		AFA81C5E1ADAC9150010F151 /* marimba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C5D1ADAC9150010F151 /* marimba.mp3 */; };
+		AFA81C621ADACC870010F151 /* completed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C5F1ADACC870010F151 /* completed@2x.png */; };
+		AFA81C631ADACC870010F151 /* dog_angry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C601ADACC870010F151 /* dog_angry@2x.png */; };
+		AFA81C641ADACC870010F151 /* stop_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C611ADACC870010F151 /* stop_button@2x.png */; };
+		AFA81C671ADAD0010010F151 /* AudioUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C661ADAD0010010F151 /* AudioUtility.m */; };
+		AFA81C6A1ADAD8970010F151 /* tabbar_three_column@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C691ADAD8970010F151 /* tabbar_three_column@2x.png */; };
+		AFA81C6D1ADAE0EC0010F151 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C6C1ADAE0EC0010F151 /* RecommendViewController.m */; };
+		AFA81C701ADAE11B0010F151 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C6F1ADAE11B0010F151 /* InfoViewController.m */; };
+		AFA81C741ADAE64B0010F151 /* recommend_app_01.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C711ADAE64B0010F151 /* recommend_app_01.png */; };
+		AFA81C751ADAE64B0010F151 /* recommend_app_02.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C721ADAE64B0010F151 /* recommend_app_02.png */; };
+		AFA81C781ADAE6A30010F151 /* recommend_app_03.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA81C771ADAE6A20010F151 /* recommend_app_03.png */; };
+		AFA81C7B1ADAED2F0010F151 /* SoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA81C7A1ADAED2F0010F151 /* SoundViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +56,45 @@
 		AFA81C0B1ADAA5540010F151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFA81C0D1ADAA5540010F151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFA81C0E1ADAA5540010F151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AFA81C101ADAA5540010F151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AFA81C111ADAA5540010F151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFA81C141ADAA5540010F151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFA81C161ADAA5540010F151 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AFA81C191ADAA5540010F151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AFA81C1F1ADAA5540010F151 /* SBTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA81C241ADAA5540010F151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFA81C251ADAA5540010F151 /* SBTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTimerTests.m; sourceTree = "<group>"; };
+		AFA81C351ADAA5BB0010F151 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFA81C361ADAA5BB0010F151 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		AFA81C371ADAA5BB0010F151 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		AFA81C3B1ADAA93B0010F151 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		AFA81C3C1ADAA93B0010F151 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		AFA81C3E1ADAA9560010F151 /* TimerSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerSettingViewController.h; sourceTree = "<group>"; };
+		AFA81C3F1ADAA9560010F151 /* TimerSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerSettingViewController.m; sourceTree = "<group>"; };
+		AFA81C4A1ADAB10E0010F151 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		AFA81C4C1ADAB5AB0010F151 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AFA81C4E1ADAC6810010F151 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AFA81C501ADAC6A60010F151 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		AFA81C511ADAC6A60010F151 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		AFA81C541ADAC8180010F151 /* dog_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog_normal@2x.png"; sourceTree = "<group>"; };
+		AFA81C551ADAC8180010F151 /* reset_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset_button@2x.png"; sourceTree = "<group>"; };
+		AFA81C561ADAC8180010F151 /* start_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start_button@2x.png"; sourceTree = "<group>"; };
+		AFA81C5A1ADAC8890010F151 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+		AFA81C5D1ADAC9150010F151 /* marimba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marimba.mp3; sourceTree = "<group>"; };
+		AFA81C5F1ADACC870010F151 /* completed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "completed@2x.png"; sourceTree = "<group>"; };
+		AFA81C601ADACC870010F151 /* dog_angry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dog_angry@2x.png"; sourceTree = "<group>"; };
+		AFA81C611ADACC870010F151 /* stop_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop_button@2x.png"; sourceTree = "<group>"; };
+		AFA81C651ADAD0010010F151 /* AudioUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUtility.h; sourceTree = "<group>"; };
+		AFA81C661ADAD0010010F151 /* AudioUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUtility.m; sourceTree = "<group>"; };
+		AFA81C681ADAD4B60010F151 /* UIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIManager.h; sourceTree = "<group>"; };
+		AFA81C691ADAD8970010F151 /* tabbar_three_column@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_three_column@2x.png"; sourceTree = "<group>"; };
+		AFA81C6B1ADAE0EC0010F151 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		AFA81C6C1ADAE0EC0010F151 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		AFA81C6E1ADAE11B0010F151 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		AFA81C6F1ADAE11B0010F151 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		AFA81C711ADAE64B0010F151 /* recommend_app_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recommend_app_01.png; sourceTree = "<group>"; };
+		AFA81C721ADAE64B0010F151 /* recommend_app_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recommend_app_02.png; sourceTree = "<group>"; };
+		AFA81C771ADAE6A20010F151 /* recommend_app_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recommend_app_03.png; sourceTree = "<group>"; };
+		AFA81C791ADAED2F0010F151 /* SoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundViewController.h; sourceTree = "<group>"; };
+		AFA81C7A1ADAED2F0010F151 /* SoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +102,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA81C4F1ADAC6810010F151 /* MediaPlayer.framework in Frameworks */,
+				AFA81C4D1ADAB5AB0010F151 /* AudioToolbox.framework in Frameworks */,
+				AFA81C4B1ADAB10E0010F151 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +121,9 @@
 		AFA81BFD1ADAA5530010F151 = {
 			isa = PBXGroup;
 			children = (
+				AFA81C4E1ADAC6810010F151 /* MediaPlayer.framework */,
+				AFA81C4C1ADAB5AB0010F151 /* AudioToolbox.framework */,
+				AFA81C4A1ADAB10E0010F151 /* iAd.framework */,
 				AFA81C081ADAA5530010F151 /* SBTimer */,
 				AFA81C221ADAA5540010F151 /* SBTimerTests */,
 				AFA81C071ADAA5530010F151 /* Products */,
@@ -81,10 +142,12 @@
 		AFA81C081ADAA5530010F151 /* SBTimer */ = {
 			isa = PBXGroup;
 			children = (
+				AFA81C5C1ADAC9060010F151 /* Sounds */,
+				AFA81C2F1ADAA5750010F151 /* Images */,
+				AFA81C331ADAA58F0010F151 /* Utilities */,
+				AFA81C301ADAA57B0010F151 /* Controllers */,
 				AFA81C0D1ADAA5540010F151 /* AppDelegate.h */,
 				AFA81C0E1ADAA5540010F151 /* AppDelegate.m */,
-				AFA81C101ADAA5540010F151 /* ViewController.h */,
-				AFA81C111ADAA5540010F151 /* ViewController.m */,
 				AFA81C131ADAA5540010F151 /* Main.storyboard */,
 				AFA81C161ADAA5540010F151 /* Images.xcassets */,
 				AFA81C181ADAA5540010F151 /* LaunchScreen.xib */,
@@ -117,6 +180,80 @@
 				AFA81C241ADAA5540010F151 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFA81C2F1ADAA5750010F151 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AFA81C531ADAC7F80010F151 /* Basic */,
+				AFA81C341ADAA5BB0010F151 /* Defaults */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AFA81C301ADAA57B0010F151 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFA81C3E1ADAA9560010F151 /* TimerSettingViewController.h */,
+				AFA81C3F1ADAA9560010F151 /* TimerSettingViewController.m */,
+				AFA81C3B1ADAA93B0010F151 /* TimerViewController.h */,
+				AFA81C3C1ADAA93B0010F151 /* TimerViewController.m */,
+				AFA81C6E1ADAE11B0010F151 /* InfoViewController.h */,
+				AFA81C6F1ADAE11B0010F151 /* InfoViewController.m */,
+				AFA81C501ADAC6A60010F151 /* SettingViewController.h */,
+				AFA81C511ADAC6A60010F151 /* SettingViewController.m */,
+				AFA81C6B1ADAE0EC0010F151 /* RecommendViewController.h */,
+				AFA81C6C1ADAE0EC0010F151 /* RecommendViewController.m */,
+				AFA81C791ADAED2F0010F151 /* SoundViewController.h */,
+				AFA81C7A1ADAED2F0010F151 /* SoundViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AFA81C331ADAA58F0010F151 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AFA81C651ADAD0010010F151 /* AudioUtility.h */,
+				AFA81C661ADAD0010010F151 /* AudioUtility.m */,
+				AFA81C681ADAD4B60010F151 /* UIManager.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		AFA81C341ADAA5BB0010F151 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				AFA81C351ADAA5BB0010F151 /* Default-568h@2x.png */,
+				AFA81C361ADAA5BB0010F151 /* Default-667h@2x.png */,
+				AFA81C371ADAA5BB0010F151 /* Default-736h@3x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		AFA81C531ADAC7F80010F151 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				AFA81C711ADAE64B0010F151 /* recommend_app_01.png */,
+				AFA81C721ADAE64B0010F151 /* recommend_app_02.png */,
+				AFA81C771ADAE6A20010F151 /* recommend_app_03.png */,
+				AFA81C5F1ADACC870010F151 /* completed@2x.png */,
+				AFA81C601ADACC870010F151 /* dog_angry@2x.png */,
+				AFA81C611ADACC870010F151 /* stop_button@2x.png */,
+				AFA81C5A1ADAC8890010F151 /* tabbar@2x.png */,
+				AFA81C691ADAD8970010F151 /* tabbar_three_column@2x.png */,
+				AFA81C541ADAC8180010F151 /* dog_normal@2x.png */,
+				AFA81C551ADAC8180010F151 /* reset_button@2x.png */,
+				AFA81C561ADAC8180010F151 /* start_button@2x.png */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		AFA81C5C1ADAC9060010F151 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AFA81C5D1ADAC9150010F151 /* marimba.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +336,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA81C6A1ADAD8970010F151 /* tabbar_three_column@2x.png in Resources */,
+				AFA81C741ADAE64B0010F151 /* recommend_app_01.png in Resources */,
+				AFA81C571ADAC8180010F151 /* dog_normal@2x.png in Resources */,
 				AFA81C151ADAA5540010F151 /* Main.storyboard in Resources */,
+				AFA81C381ADAA5BB0010F151 /* Default-568h@2x.png in Resources */,
+				AFA81C591ADAC8180010F151 /* start_button@2x.png in Resources */,
 				AFA81C1A1ADAA5540010F151 /* LaunchScreen.xib in Resources */,
 				AFA81C171ADAA5540010F151 /* Images.xcassets in Resources */,
+				AFA81C5E1ADAC9150010F151 /* marimba.mp3 in Resources */,
+				AFA81C5B1ADAC8890010F151 /* tabbar@2x.png in Resources */,
+				AFA81C391ADAA5BB0010F151 /* Default-667h@2x.png in Resources */,
+				AFA81C581ADAC8180010F151 /* reset_button@2x.png in Resources */,
+				AFA81C631ADACC870010F151 /* dog_angry@2x.png in Resources */,
+				AFA81C781ADAE6A30010F151 /* recommend_app_03.png in Resources */,
+				AFA81C621ADACC870010F151 /* completed@2x.png in Resources */,
+				AFA81C751ADAE64B0010F151 /* recommend_app_02.png in Resources */,
+				AFA81C641ADACC870010F151 /* stop_button@2x.png in Resources */,
+				AFA81C3A1ADAA5BB0010F151 /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +371,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA81C121ADAA5540010F151 /* ViewController.m in Sources */,
+				AFA81C3D1ADAA93B0010F151 /* TimerViewController.m in Sources */,
+				AFA81C401ADAA9560010F151 /* TimerSettingViewController.m in Sources */,
+				AFA81C701ADAE11B0010F151 /* InfoViewController.m in Sources */,
+				AFA81C6D1ADAE0EC0010F151 /* RecommendViewController.m in Sources */,
 				AFA81C0F1ADAA5540010F151 /* AppDelegate.m in Sources */,
+				AFA81C671ADAD0010010F151 /* AudioUtility.m in Sources */,
 				AFA81C0C1ADAA5540010F151 /* main.m in Sources */,
+				AFA81C521ADAC6A60010F151 /* SettingViewController.m in Sources */,
+				AFA81C7B1ADAED2F0010F151 /* SoundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SBTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SBTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +572,7 @@
 				AFA81C2B1ADAA5540010F151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFA81C2C1ADAA5540010F151 /* Build configuration list for PBXNativeTarget "SBTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +581,7 @@
 				AFA81C2E1ADAA5540010F151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
