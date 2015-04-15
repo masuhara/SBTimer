@@ -20,7 +20,6 @@
     [super viewDidLoad];
     infoWebView.delegate = self;
     infoWebView.scalesPageToFit = YES;
-    
 
     NSURL *url = [NSURL URLWithString:@"http://app.jmad.ne.jp/iphone_app/info/index.html"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
